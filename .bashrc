@@ -9,6 +9,8 @@ alias grep='grep --color'
 alias ls='ls --color=auto'
 alias vi='vim'
 
+export EDITOR="vim"
+
 # start ssh-agent and read keys
 eval `keychain --eval -q`
 ssh-add -l || ssh-add .ssh/id_rsa
